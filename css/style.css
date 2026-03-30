@@ -690,7 +690,8 @@ footer {
 ───────────────────────────────────────── */
 @media (max-width: 860px) {
     .nav-inner { padding: 0 20px; }
-    .nav-title { display: none; }
+    .nav-title span { display: none; }
+    .nav-title img { height: 30px; }
     .nav-links > li > a { padding: 0 10px; font-size: 12px; }
 
     .hero h1 { font-size: 26px; }
