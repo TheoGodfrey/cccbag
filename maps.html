@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maps — Chadlington CCBAG</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <a class="nav-title" href="index.html">Chadlington Climate Change<br>and Biodiversity Action Group</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="has-dropdown">
+                <a href="projects.html">Projects</a>
+                <ul class="dropdown">
+                    <li><a href="butterflies.html">Butterflies &amp; Moths</a></li>
+                    <li><a href="water-quality.html">Evenlode Water Quality</a></li>
+                </ul>
+            </li>
+            <li><a href="maps.html" class="active">Maps</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+<div class="container">
+    <section>
+
+        <div class="page-heading">
+            <h1>We are mapping our biodiversity assets</h1>
+            <p>Maps of notable trees, first butterfly sightings and the Big Butterfly Count. Click the blue tags on the trees map to see photographs.</p>
+            <p class="note">More data and further maps will be added in due course.</p>
+        </div>
+
+        <!--
+            Google My Maps embeds freely — they are designed for this.
+            To get your embed URL:
+              1. Open the map in Google My Maps
+              2. Click the share icon → Embed on my site
+              3. Copy the src URL — it will look like:
+                 https://www.google.com/maps/d/embed?mid=XXXXXXXXXX&ll=...
+              4. Paste it as the src below.
+        -->
+
+        <p class="map-label">Notable trees around Chadlington. Use the rectangle icon at top left of the map to change the display.</p>
+
+        <div class="map-frame-wrapper">
+            <iframe
+                src="https://www.google.com/maps/d/embed?mid=REPLACE_WITH_YOUR_MAP_ID"
+                title="Chadlington notable trees"
+                allowfullscreen
+                loading="lazy">
+            </iframe>
+        </div>
+
+        <!-- Add further maps below using the same pattern:
+
+        <p class="map-label" style="margin-top: 48px;">First butterfly sightings 2024</p>
+        <div class="map-frame-wrapper">
+            <iframe src="YOUR_SECOND_MAP_EMBED_URL" title="Butterfly sightings" allowfullscreen loading="lazy"></iframe>
+        </div>
+
+        -->
+
+        <p style="text-align:center; margin-top: 28px;">
+            <a href="maps.html" class="btn btn-outline" style="pointer-events:none; opacity:0.5;">More maps coming soon</a>
+            &nbsp;&nbsp;
+            <a href="contact.html" class="btn btn-outline">Submit a sighting</a>
+        </p>
+
+    </section>
+</div>
+</main>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-name">
+            Chadlington Climate Change and Biodiversity Action Group<br>
+            Chadlington, Oxfordshire
+        </div>
+        <div class="footer-links">
+            <a href="mailto:cccbaginfo@gmail.com">cccbaginfo@gmail.com</a><br>
+            <a href="about.html">About</a> &nbsp;·&nbsp;
+            <a href="contact.html">Contact</a> &nbsp;·&nbsp;
+            <a href="projects.html">Projects</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
